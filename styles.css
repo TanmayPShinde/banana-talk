@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Glory:wght@300&display=swap');
 
 :root {
-    --primary-color: rgb(253, 236, 0);
+    --primary-color: #FBBF24;
 }
 
 body {
@@ -27,6 +27,7 @@ body {
     margin: auto;
     margin-top: 2rem;
     padding: 1rem 1rem;
+    border: 2px solid var(--primary-color);
 }
 
 #btn-translate {
