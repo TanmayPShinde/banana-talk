@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@300&display=swap');
+
+:root {
+    --primary-color: rgb(253, 236, 0);
+}
+
+body {
+    font-family: 'Glory', sans-serif;
+    margin: 0px;
+}
+
+.header {
+    padding: 1rem;
+    background-color: var(--primary-color);
+    border-bottom-left-radius: 2rem;
+}
+
+.hero-heading {
+    text-align: center;
+    padding: 1rem 0rem;
+}
+
+#text-input {
+    display: block;
+    height: 20vh;
+    width: 600px;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 1rem 1rem;
+}
+
+#btn-translate {
+    background-color: var(--primary-color);
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 0.5rem 0.5rem;
+}
+
+.centered-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+#output {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    height: 20vh;
+    border: 1px solid black;
+    padding: 1rem 1rem;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 0rem 1rem;
+    border-top-right-radius: 1.5rem;
+}
+
+.footer .centered-container {
+    padding: 2rem 0rem;
+}
